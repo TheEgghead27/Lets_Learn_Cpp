@@ -1,6 +1,6 @@
 // SOLUTION AT BOTTOM
 
-include <iostream>
+#include <iostream>
 
 int main() {
 	std::cout << "Ham Sandwich\n";

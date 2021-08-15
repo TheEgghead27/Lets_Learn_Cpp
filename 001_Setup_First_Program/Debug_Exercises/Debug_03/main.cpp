@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int main) {
+int main() {
 	std::cout << "Ham Sandwich\n";
 	return 0;
 }

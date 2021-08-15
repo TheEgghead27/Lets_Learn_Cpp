@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-	std::cout << "Ham Sandwich\n"
+	std::cout << "Ham Sandwich\n";
 	return 0;
 }
 
