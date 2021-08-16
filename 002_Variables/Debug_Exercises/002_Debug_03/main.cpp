@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-	bool b = True;
-	char c = "c";
+	bool b = true;
+	char c = 'c';
 	double d = 3.3;
 	float f = 2;
 	int i = 4.4;

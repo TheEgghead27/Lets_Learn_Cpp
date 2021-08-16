@@ -1,6 +1,7 @@
 // 1 ERROR - SCROLL DOWN FOR SOLUTIONS
 
 #include <iostream>
+using namespace std;
 
 
 int main() {
