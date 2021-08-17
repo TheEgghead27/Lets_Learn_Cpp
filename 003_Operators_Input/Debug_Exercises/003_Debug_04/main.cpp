@@ -1,12 +1,12 @@
 // 3 ERRORS - SCROLL DOWN FOR SOLUTIONS
 
-#include <iotream>
+#include <iostream>
 #include <string>
 using namespace std;
 
 int main() {
-	cout << 5 > (66 / 32 + 5) && 4 == 4) << endl;
-	cout << ((45 <= 54 || (64 != 8 * 4 * 2)) << endl;
+	cout << (5 > (66 / 32 + 5) && 4 == 4) << endl;
+	cout << ((45 <= 54) || (64 != 8 * 4 * 2)) << endl;
 	string y;
 	getline(cin, y);
 	return 0;

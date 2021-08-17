@@ -6,11 +6,11 @@ using namespace std;
 int main() {
 	string legs;
 	cout << "How many legs do you have? " << endl;
-	getlne(cin, legs);
+	getline(cin, legs);
 	cout << "Not enough legs." << endl;
 
 	string z;
-	getline(cin, y);
+	getline(cin, z);
 	return 0;
 }
 

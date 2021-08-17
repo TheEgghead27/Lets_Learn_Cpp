@@ -7,12 +7,12 @@ using namespace std;
 int main() {
 	int rabbits = 12;
 	int time = 24;
-	int virus == 10;
+	int virus = 10;
 	rabbits += 3;
 	rabbits *= time;
 	rabbits /= virus;
-	rabbits+;
-	+rabbits;
+	rabbits++;
+	++rabbits;
 
 	cout << rabbits << endl;
 

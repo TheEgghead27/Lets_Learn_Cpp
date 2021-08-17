@@ -4,15 +4,15 @@
 #include <string>
 using namespace std;
 
-int main() 
+int main() {
 
 	int carrots;
 	cout << "How many bandaids did I eat?" << endl;
 
-	cin << carrots;
+	cin >> carrots;
 
 	cout << "Incorrect: all of them.";
-	cin << carrots;
+	cin >> carrots;
 
 	return 0;
 }
