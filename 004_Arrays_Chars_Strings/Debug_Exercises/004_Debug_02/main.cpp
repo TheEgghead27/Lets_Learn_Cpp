@@ -2,12 +2,12 @@
 // 3 ERRORS - SCROLL DOWN FOR SOLUTIONS
 
 #include <iostream>
-#include <strng>
+#include <string>
 using namespace std;
 
 int main() {
-	int my_array[]{1,2,3}
-	cout << my_array[3] << endl;
+	int my_array[]{ 1,2,3 };
+	cout << my_array[2] << endl;
 	string y;
 	getline(cin, y);
 	return 0;

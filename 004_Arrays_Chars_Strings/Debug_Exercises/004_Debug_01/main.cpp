@@ -6,8 +6,8 @@
 using namespace std;
 
 int main() {
-	int my_array[3] = {1,1,1,1};
-	int my_array2[] = "ham";
+	int my_array[4] = {1,1,1,1};
+	char my_array2[] = "ham";
 	string y;
 	getline(cin, y);
 	return 0;

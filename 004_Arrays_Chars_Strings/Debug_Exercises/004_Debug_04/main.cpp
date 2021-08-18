@@ -8,9 +8,9 @@ using namespace std;
 int main() {
 	string food = "Ham";
 	string food2 = "Sandwich";
-	cout << food.find("Ham) << std::endl;
+	cout << food.find("Ham") << std::endl;  // we dont need the std:: since namespace is declared but technically this is not a problem
 	cout << food + food2 << endl;
-	cout << fod[0] << endl;
+	cout << food[0] << endl;
 	string y;
 	getline(cin, y);
 	return 0;

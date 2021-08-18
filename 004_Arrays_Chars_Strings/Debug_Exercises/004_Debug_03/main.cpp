@@ -6,8 +6,8 @@
 using namespace std;
 
 int main() {
-	char a = "ham";
-	char b{'a', 'd','z'};
+	char a[] = "ham";
+	char b[]{'a', 'd','z', '\0'};
 
 	string y;
 	getline(cin, y);
