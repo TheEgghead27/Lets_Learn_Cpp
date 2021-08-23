@@ -3,12 +3,12 @@
 
 #include <iostream>
 #include <string>
-using namespace std
+using namespace std;
 
 int main() {
 	int i = 5;
-	int& j == i;
-	int* p = j;
+	int& j = i;
+	int* p = &j;
 
 	cout << i << endl;
 	cout << &i << endl;

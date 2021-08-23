@@ -1,13 +1,13 @@
 
 // 3 ERRORS - SCROLL DOWN FOR SOLUTIONS
 
-#include <iostream
+#include <iostream>
 #include <string>
 using namespace std;
 
-int main() 
+int main() {
 	int a = 5;
-	int& r = &a;
+	int& r = a;
 	r = 7;
 	cout << a;
 	string y;
