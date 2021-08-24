@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-	if 'ham' cout << "sandwich";
+	if ("ham") cout << "sandwich";
 
 	string y;
 	getline(cin, y);

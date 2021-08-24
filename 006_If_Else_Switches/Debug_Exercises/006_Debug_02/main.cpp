@@ -4,12 +4,13 @@
 #include <string>
 using namespace std;
 
-int main {
-	if ("ham")
+int main(void) {
+	if ("ham") {
 		int x = 5;
 		x += 5;
+	}
 	else
-		cout << "condition not met" << ;
+		cout << "condition not met" << endl;
 
 
 	string y;

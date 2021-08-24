@@ -8,14 +8,16 @@ int main() {
 	switch (1) {
 	case 1:
 		cout << "output this." << endl;
+		break;
 	case 2:
 		cout << "don't output this." << endl;
+		break;
 	default:
 		cout << "never see this";
 	}
 
 
-	switch (5 4) {
+	switch (5) {
 	case 1:
 		cout << "never see this";
 	default:

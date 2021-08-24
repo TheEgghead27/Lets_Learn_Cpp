@@ -5,8 +5,8 @@
 using namespace std;
 
 int main() {
-	int x = True ? 4.2 : 5;
-	float z = False ? 4 : 5;
+	int x = true ? 4.2 : 5;
+	float z = false ? 4 : 5;
 	cout << x << endl;
 	cout << z << endl;
 	x = 'a' == 'A' ? 1234 : 444;
