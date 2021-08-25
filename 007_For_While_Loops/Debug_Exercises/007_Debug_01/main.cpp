@@ -5,10 +5,10 @@
 #include <string>
 using namespace std;
 
-int main()
-	int x = 0;
+int main() {
+	int x = 5;
 	while (x)
-		cout << x << endl;
+		cout << x-- << endl;
 
 
 	string y;

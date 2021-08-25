@@ -6,8 +6,8 @@
 using namespace std;
 
 int main() {
-	for (int i = 0; i = 10; i++)
-		cout << i-- << end;
+	for (int i = 0; i >= 10; i+= 2)
+		cout << i-- << end;  // these cancel out the  ++
 	string y;
 	getline(cin, y);
 	return 0;

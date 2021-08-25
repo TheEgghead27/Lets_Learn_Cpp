@@ -3,10 +3,10 @@
 
 #include <iostream>
 #include <string>
-using namespce std;
+using namespace std;
 
 int main() {
-	double x = -10.5;
+	double x = -10;//.5;
 	do
 		cout << x++ << endl;
 	while (x);

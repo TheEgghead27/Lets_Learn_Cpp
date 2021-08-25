@@ -2,12 +2,12 @@
 // 3 ERRORS - SCROLL DOWN FOR SOLUTIONS
 
 #include <iostream>
-include <string>
+#include <string>
 using namespace std;
 
 int main() {
 	float x = 10.5;
-	while (x >= ) 
+	while (x >= 0) {
 		cout << "Oxygen levels: " << x << endl;
 		x--;
 		if (x == 5.5)
@@ -16,6 +16,7 @@ int main() {
 			cout << "Mark Watney is at the door!\n";
 		else if (x > 0.5)
 			cout << "Mark Watney is running!" << endl;
+	}
 	
 	cout << "Mark Watney made it!" << endl;
 
