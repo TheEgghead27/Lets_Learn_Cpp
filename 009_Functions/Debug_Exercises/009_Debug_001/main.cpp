@@ -4,8 +4,8 @@
 #include <string>
 using namespace std;
 
-print_Ham(string ham = "ham") {
-	cout << ham >> endl;
+void print_Ham(string ham = "ham") {
+	cout << ham << endl;
 }
 
 

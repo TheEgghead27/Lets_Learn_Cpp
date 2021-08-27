@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-using namespace standard;
+using namespace std;
 
 void square_array(int* arr, int size) {
 	for (int i = size - 1; i >= 0; --i) {
@@ -12,9 +12,9 @@ void square_array(int* arr, int size) {
 	}
 }
 
-int main {
+int main() {
 	int x[]{ 1,2,3,4,5 };
-	square_array(x);
+	square_array(x, 5);
 
 	string y;
 	getline(cin, y);

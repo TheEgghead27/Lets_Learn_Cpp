@@ -4,12 +4,12 @@
 #include <string>
 using namespace std;
 
-double square_num(double d){
-	return d*d;
-
+double square_num(double d) {
+	return d * d;
+}
 
 int main() {
-	doubl x = squar_num(43.6);
+	double x = square_num(43.6);
 	cout << x;
 	string y;
 	getline(cin, y);
