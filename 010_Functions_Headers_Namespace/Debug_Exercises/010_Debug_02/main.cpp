@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-int poof();
+void poof(int);
 
 int main() {
 	poof(5);
@@ -14,8 +14,8 @@ int main() {
 	return 0;
 }
 
-void poof() {
-	cout >> "poof!";
+void poof(int x) {
+	cout << "poof!" << x;
 }
 
 

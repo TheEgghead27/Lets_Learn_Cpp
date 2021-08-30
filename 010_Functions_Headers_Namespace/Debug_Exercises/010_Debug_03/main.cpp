@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-	string s1 = add_Some_Ham('I love');
+	string s1 = add_Some_Ham("I love");
 	cout << s1;
 
 	string y;

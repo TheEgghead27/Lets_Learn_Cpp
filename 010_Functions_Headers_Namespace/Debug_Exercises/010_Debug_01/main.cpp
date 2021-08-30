@@ -4,8 +4,8 @@
 #include <string>
 using namespace std;
 
-void print_Array(int *arr[], int size) {
-	for (int i = 0; i > size; i++)
+void print_Array(int arr[], int size) {
+	for (int i = 0; i < size; i++)
 		cout << arr[i] << endl;
 }
 
