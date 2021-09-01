@@ -1,16 +1,16 @@
 // 4 ERRORS - SCROLL DOWN FOR SOLUTIONS
 
 #include <iostream>
-#include <sting>
+#include <string>
 using namespace std;
 
-const long int square(const int& i) { // hint
-	return i*I;
+long int square(int i) { // hint
+	return i*i;
 }
 
 int main() {
 	const int j = square(10);
-	j *= 10;
+	 // j *= 10;
 	cout << j;
 	string y;
 	getline(cin, y);

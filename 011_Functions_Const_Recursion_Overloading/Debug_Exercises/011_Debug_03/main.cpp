@@ -7,12 +7,12 @@ using namespace std;
 
 const long int area(int w, int h) {
 	Expects(w > 0);
-	Expects(h < 0);
+	Expects(h > 0);
 	return w*h;
 }
 
-const double area(double w, double h, string s) {
-	Ensures(w*w > 0);
+const double area(double w, double h) {
+	Ensures(w*h > 0);
 	return w*h;
 }
 

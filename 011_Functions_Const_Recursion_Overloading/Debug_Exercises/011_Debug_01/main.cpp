@@ -4,13 +4,13 @@
 #include <string>
 using namespace std;
 
-inline const int f(constexpr int* const p) {
+inline const int f(const int* const p) {
 	return 5;
 }
 
 int main() {
-	int x = 6;
-	int p1 = &x;
+	const int x = 6;
+	int* p1 = &x;
 	cout << f(p1);
 
 
