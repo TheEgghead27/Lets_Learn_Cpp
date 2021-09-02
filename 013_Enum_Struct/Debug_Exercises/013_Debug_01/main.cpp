@@ -5,11 +5,11 @@
 #include <string>
 using namespace std;
 
-enm A;
-enum B( bat, bird, bee );
+enum A;
+enum B { bat, bird, bee };
 
 int main() {
-	B b = bath;
+	B b = bat;
 	cout << b;
 	string y;
 	getline(cin, y);

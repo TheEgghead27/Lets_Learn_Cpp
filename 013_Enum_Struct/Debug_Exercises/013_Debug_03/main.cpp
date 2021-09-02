@@ -6,13 +6,13 @@
 using namespace std;
 
 struct Cat {
-	fatness,
-	color
+	int fatness;
+	string color;
 };
 
 int main() {
 	Cat c;
-	c.color = 'Black and White';
+	c.color = ""Black and White";
 	cout << c.color;
 	string y;
 	getline(cin, y);

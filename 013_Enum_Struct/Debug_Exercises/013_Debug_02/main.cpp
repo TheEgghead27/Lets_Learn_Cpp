@@ -5,14 +5,14 @@
 #include <string>
 using namespace std;
 
-enum Colors{ 
-	red = 0xFF0000;
-	blue = 0x00FF00;
-	green = 0x0000FF;
+enum class Colors{ 
+	red = 0xFF0000,
+	blue = 0x00FF00,
+	green = 0x0000FF,
 };
 
 int main() {
-	cout << lint(Colors::red);
+	cout << int(Colors::red);
 	string y;
 	getline(cin, y);
 	return 0;
