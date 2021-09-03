@@ -5,20 +5,20 @@
 #include <string>
 using namespace std;
 
-class GuitarCase {
+class Guitar_Case {
 	int guns;
 public:
-	Guitar_Case(): guns(19){}
-	int get_Gun_Count() { return guns; }
-	void remove_Gun() { --guns }
+	Guitar_Case() : guns(19) {};
+	int get_Gun_Count() { return guns; };
+	void remove_Gun() { --guns; };
 };
 
 int main() {
 	Guitar_Case g;
-	Guitar_Case* p = g;
+	Guitar_Case* p = &g;
 	cout << g.get_Gun_Count() << endl;
 	g.remove_Gun();
-	p->remove_Gun;
+	p->remove_Gun();
 	cout << p->get_Gun_Count() << endl;
 
 	string y;

@@ -6,10 +6,10 @@
 using namespace std;
 
 class Dude {
-
+public:
 	int fatness;
-	Dude() { fatness = 5; }
-}
+	Dude() { fatness = 5; };
+};
 
 int main() {
 	Dude d;
